@@ -1,0 +1,205 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.content{
+    margin: 5px auto;
+    width: 800px;
+    max-width: 100%;
+    padding: 20px;
+    color: rgb(130, 130, 130);
+}
+
+/* --------- sectionHead -------- */
+
+.sectionHead{   
+    margin: auto;
+    padding-bottom: 70px;
+}
+
+.line{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(180, 180, 180);
+    position: relative;
+    top: 40px;  
+}
+
+.sectionHs{
+    padding-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative; 
+}
+
+.sectionH{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px; 
+}
+
+.sec{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 4px 10px;
+    font-size: 20px;
+    background-color: rgb(180, 180, 180);
+    color: #fff;
+}
+
+.perirgoli{
+    background-color: rgba(0, 102, 255, 0.87);
+}
+
+.peritxt{
+    color: rgba(0, 102, 255, 0.87);
+}
+
+.sectionH span{
+    display: block;
+}
+
+/* -------- section1 -------- */
+
+.section2,
+.section3{
+    display: none;   
+}
+
+.active{
+    display: block;
+}
+
+.hide{
+    display: none;
+}
+
+form.first label{
+    color: rgb(65, 65, 65);
+    font-weight: bold;
+    position: absolute;
+    top: -20px;
+}
+
+form.first label em{
+    color: darkred;
+    font-size: 10px;
+    position: absolute;
+    top: -4px;
+    padding: 5px;
+}
+
+.forlable{
+    position: relative;   
+}
+
+.namesDiv{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding-bottom: 50px;
+}
+
+#fname,
+#lname,
+#email,
+#review{
+    font-size: 20px;
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline-color: rgba(0, 102, 255, 0.87);
+}
+
+.email{
+    padding-bottom: 30px;
+}
+
+.btn{
+    font-size: 15px;
+    background-color: rgb(237, 237, 237);
+    color: rgb(130, 130, 130);
+    padding: 12px;
+    margin: 8px 0;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+}
+
+.review{
+    padding-bottom: 30px;
+}
+
+/* -------- section3 -------- */
+
+.section1edit,
+.section2edit{
+    position: relative;
+    font-size: 20px;
+    width: 100%;
+    padding: 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.section3 span.sum{
+    color: rgb(65, 65, 65);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.edit{
+    position: absolute;
+    top: 0px;
+    right: 5px;
+    display: inline-block;
+    font-size: 17px;
+    background-color: #fff;
+    color: rgb(130, 130, 130);
+    padding: 12px;
+    margin: 8px 0;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+}
+
+.second span,
+.last span{
+    font-size: 20px;
+    padding: 12px;
+    margin: 8px 0;
+    display:inline-block;
+    border: none;
+}
+
+.lineshort{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(180, 180, 180);
+    top: 40px;
+}
+
+.fie span{
+    display: block;
+}
+.fie,
+.last{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 2fr;
+    justify-content: space-between;  
+}
+
+
+
+
